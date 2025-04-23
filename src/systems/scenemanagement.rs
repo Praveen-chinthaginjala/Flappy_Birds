@@ -72,7 +72,7 @@ impl SceneManager {
 The tests validate : 
 1. Scene stack pops on Transition::Pop
 2. Scene draw is called: Verifies draw method is invoked for the active scene.
-3. Game exits if no scenes remain:
+3. Game exits if no scenes remain.
 
 A note : 
 test_game_exits_when_no_scenes_left() is commented out as it calls manager.draw()
