@@ -1,0 +1,10 @@
+[package]
+name = "flappy-in-macroquad"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+macroquad = { version = "0.4.14", features = ["audio"] }
+rand = "0.9.1"
+float_eq = "1.0.1"
+tempfile = "3.19.1"
